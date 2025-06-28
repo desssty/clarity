@@ -1,0 +1,63 @@
+# Билды
+/out
+/build
+/release
+
+# Electron builder output
+/dist
+/dist-electron
+/dist-react
+/*.exe
+/*.dmg
+/*.AppImage
+
+# SQLite database files (рабочие файлы БД)
+*.db
+*.sqlite
+*.sqlite3
+
+# User data (на случай если случайно скопируешь)
+userData/
+books/
+
+# Vite
+/.vite
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules
+
+# Local env files (если будешь использовать)
+.env
+.env.*
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains IDE
+.idea
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
